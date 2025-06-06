@@ -1,16 +1,16 @@
 {
-    "name": "typing-sounds",
-    "publisher": "Mtuan",
-    "displayName": "Typing Sounds",
-    "description": "Start typing with awesome typewriter sounds",
-    "version": "0.0.1",
+    "name": "animalese-typing-sounds",
+    "publisher": "Sky.Bit",
+    "displayName": "Animalese Typing Sounds",
+    "description": "Heheh you have no idea..",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.40.0"
     },
-    "homepage": "https://matto.io",
+    "homepage": "https://skydevs.me",
     "repository": {
         "type": "git",
-        "url": "https://github.com/mattogodoy/hacker-sounds"
+        "url": "https://github.com/SkyDotBit/Animalese-for-vscode"
     },
     "keywords": [
         "audio",
@@ -22,16 +22,12 @@
         "keypress sound",
         "keyboard",
         "Keyboard Sounds",
-        "hacker",
-        "fx",
-        "sci-fi",
-        "Typewriter",
-        "Typewriter sound",
-        "Fallout Sounds",
-        "Aural Coding"
+        "Aural Coding",
+        "Animal Crossing",
+        "Animalese"
     ],
     "icon": "icon.png",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "categories": [
         "Other"
     ],
@@ -67,19 +63,23 @@
         "test": "node ./out/test/runTest.js"
     },
     "devDependencies": {
+        "@types/fluent-ffmpeg": "^2.1.27",
         "@types/glob": "^7.1.1",
         "@types/lodash.debounce": "^4.0.6",
         "@types/mocha": "^5.2.7",
         "@types/node": "^12.11.7",
+        "@types/play-sound": "^1.1.2",
         "@types/vscode": "^1.40.0",
         "glob": "^7.1.5",
         "mocha": "^6.2.2",
         "tslint": "^5.20.0",
-        "typescript": "^3.6.4",
+        "typescript": "^5.8.3",
+        "vscode": "^1.1.37",
         "vscode-test": "^1.2.2"
     },
     "dependencies": {
+        "fluent-ffmpeg": "^2.1.3",
         "lodash.debounce": "^4.0.8",
-        "play-sound": "^1.1.3"
+        "play-sound": "^1.1.6"
     }
 }

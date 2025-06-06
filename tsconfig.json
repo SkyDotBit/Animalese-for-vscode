@@ -2,13 +2,13 @@
 	"compilerOptions": {
 		"module": "commonjs",
 		"target": "es6",
-		"outDir": "out",
+		"outDir": "C:/Users/Michael Carollo/Documents/GitHub/Animalese-for-vscode/out/animalese-typing/src",
 		"skipLibCheck": true,
 		"lib": [
 			"es6"
 		],
 		"sourceMap": true,
-		"rootDir": "src",
+		"rootDir": "C:/Users/Michael Carollo/Documents/GitHub/Animalese-for-vscode",
 		"strict": true   /* enable all strict type-checking options */
 		/* Additional Checks */
 		// "noImplicitReturns": true, /* Report error when not all code paths in function return a value. */

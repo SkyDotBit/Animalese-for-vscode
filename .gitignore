@@ -1,0 +1,4 @@
+node_modules
+.vscode
+tsconfig.json
+animalese-typing-sounds-1.0.0.vsix
